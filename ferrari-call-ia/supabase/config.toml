@@ -1,0 +1,5 @@
+project_id = "SEU_PROJECT_REF"
+
+[functions.create-transcription-session]
+# Mantém a verificação de JWT ligada: só quem tem a chave publicável do projeto chama a função.
+verify_jwt = true
